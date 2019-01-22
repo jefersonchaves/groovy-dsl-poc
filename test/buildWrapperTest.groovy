@@ -7,11 +7,13 @@ class buildWrapperTest extends BasePipelineTest {
     @Override
     @Before
     public void setUp() throws Exception {
-      super.setUp()
+        super.setUp()
     }
 
     @Test
     public void should_execute_without_errors() throws Exception {
-      def script = loadScript("vars/buildWrapper.groovy")
+        def script = loadScript("vars/buildWrapper.groovy")
+        script.execute()
+        printCallStack()
     }
 }
