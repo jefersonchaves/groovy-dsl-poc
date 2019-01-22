@@ -1,3 +1,4 @@
+import org.junit.Test
 import com.lesfurets.jenkins.unit.BasePipelineTest
 
 class buildWrapperTest extends BasePipelineTest {
