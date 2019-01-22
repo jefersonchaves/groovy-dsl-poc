@@ -1,8 +1,6 @@
-import com.lesfurets.jenkins.unit.BasePipelineTest
-import org.junit.Before
-import org.junit.Test
-
-import static org.junit.Assert.assertThat
+import org.junit.*
+import com.lesfurets.jenkins.unit.*
+import static groovy.test.GroovyAssert.*
 
 class buildWrapperTest extends BasePipelineTest {
         
